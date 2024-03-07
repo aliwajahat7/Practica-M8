@@ -1,0 +1,84 @@
+/* Todos los elementos de la pagina */
+h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+}
+
+/* Todos los parrafos de la pagina */
+p{
+   color: blue;
+ }
+
+/* Todos los párrafos contenidos en "primero" */
+#primero p{
+  color: red;
+}
+
+/* Todos los enlaces la pagina */
+a{
+  color: green;
+}
+
+/* Los elementos "em" contenidos en "primero" */
+body{
+  background-color: white;
+}
+
+/* Todos los elementos "em" de clase "especial" en toda la pagina */
+body{
+  background-color: #FFCC99;
+}
+
+/* Elementos "span" contenidos en la clase normal */
+p{
+  font-weight: bold;
+}
+ /* unvisited link */
+ a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+#primero{
+  font-family:"Ojuju", sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style:horizontal;
+  font-size: 20px;
+line-height: 2em;
+}
+.normal{
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: italic;
+
+}
+.small{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  font-style: oblique;
+  line-height: 3em;
+}
+.large{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 4em;
+  font-size: 20px;
+  font-style: initial;
+}
